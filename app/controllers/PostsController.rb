@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   def show
-    @show = Show.find(params[:id])
+    @post = Post.find(params[:id])
   end
   
 end
